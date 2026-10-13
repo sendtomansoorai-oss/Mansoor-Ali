@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mansoor Ali — Internal Audit, IT Audit and Cybersecurity professional portfolio.">
+  <title>Mansoor Ali | Internal Audit & Cybersecurity</title>
+  <style>
+    :root {
+      --bg: #07111f; --panel: #0d1b2d; --panel2: #10243a; --text: #edf5ff;
+      --muted: #a9bbd0; --cyan: #38c8f5; --blue: #3b82f6; --line: rgba(148, 180, 210, .2);
+      --max: 1120px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    a { color: var(--cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { width: min(var(--max), calc(100% - 40px)); margin: auto; }
+    header { position: sticky; top: 0; z-index: 10; backdrop-filter: blur(14px); background: rgba(7,17,31,.88); border-bottom: 1px solid var(--line); }
+    nav { display: flex; align-items: center; justify-content: space-between; min-height: 70px; gap: 20px; }
+    .brand { font-weight: 800; letter-spacing: -.4px; color: var(--text); }
+    .brand span { color: var(--cyan); }
+    .navlinks { display: flex; flex-wrap: wrap; gap: 18px; font-size: .92rem; }
+    .navlinks a { color: var(--muted); }
+    .hero { padding: 90px 0 76px; background: radial-gradient(ellipse at 80% 15%, rgba(56,200,245,.15), transparent 35%), linear-gradient(145deg, #07111f, #0b1c30 70%, #07111f); }
+    .eyebrow { color: var(--cyan); font-weight: 750; text-transform: uppercase; letter-spacing: 2px; font-size: .78rem; }
+    h1 { font-size: clamp(2.6rem, 7vw, 5rem); line-height: 1.05; letter-spacing: -2px; margin: 14px 0 18px; }
+    h1 span { color: var(--cyan); }
+    .hero p { max-width: 720px; color: var(--muted); font-size: 1.12rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .btn { display: inline-block; padding: 11px 18px; border: 1px solid var(--cyan); border-radius: 9px; color: var(--text); font-weight: 700; }
+    .btn.primary { background: var(--cyan); color: #03111d; }
+    section { padding: 66px 0; border-top: 1px solid var(--line); }
+    .section-head { margin-bottom: 26px; }
+    h2 { font-size: clamp(1.7rem, 4vw, 2.4rem); margin: 0 0 8px; letter-spacing: -.7px; }
+    .section-head p, .muted { color: var(--muted); margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .card { padding: 22px; background: linear-gradient(160deg, var(--panel), rgba(13,27,45,.65)); border: 1px solid var(--line); border-radius: 14px; }
+    .card h3 { margin: 0 0 8px; font-size: 1.08rem; }
+    .card p { color: var(--muted); margin: 0; }
+    .taglist { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 20px; }
+    .tag { color: #c8efff; background: rgba(56,200,245,.09); border: 1px solid rgba(56,200,245,.25); padding: 5px 10px; border-radius: 99px; font-size: .86rem; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    ul.clean { padding-left: 20px; color: var(--muted); margin-bottom: 0; }
+    ul.clean li { margin: 8px 0; }
+    .notice { border-left: 3px solid var(--cyan); background: rgba(56,200,245,.07); padding: 14px 17px; border-radius: 0 9px 9px 0; color: var(--muted); }
+    footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 800px) { .grid { grid-template-columns: 1fr 1fr; } .two-col { grid-template-columns: 1fr; } nav { align-items: flex-start; flex-direction: column; padding: 15px 0; } .navlinks { gap: 12px; } }
+    @media (max-width: 540px) { .wrap { width: min(100% - 28px, var(--max)); } .grid { grid-template-columns: 1fr; } .hero { padding: 64px 0 54px; } h1 { letter-spacing: -1px; } }
+  </style>
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <a class="brand" href="#home">MANSOOR<span>.</span></a>
+    <div class="navlinks">
+      <a href="#about">About</a><a href="#expertise">Expertise</a><a href="#projects">Case Studies</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home" style="border-top:0">
+    <div class="wrap">
+      <div class="eyebrow">Professional Portfolio</div>
+      <h1>Internal Audit<br><span>IT & Cybersecurity</span></h1>
+      <p>I’m Mansoor Ali, an Internal Audit professional focused on IT and cybersecurity controls, risk assessment, governance, and regulatory compliance. I work to help organizations strengthen control environments, identify risks, and improve processes.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">Explore Case Studies</a>
+        <a class="btn" href="#contact">Connect with Me</a>
+      </div>
+      <div class="taglist">
+        <span class="tag">IT Audit</span><span class="tag">Cybersecurity</span><span class="tag">Risk & Controls</span><span class="tag">SAMA CSF</span><span class="tag">Governance & Compliance</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head"><h2>About Me</h2><p>Independent thinking. Risk-focused assurance. Practical improvement.</p></div>
+      <div class="two-col">
+        <div class="card">
+          <h3>My professional approach</h3>
+          <p class="muted">I approach audit through risk-based planning, understanding processes and controls, evaluating supporting evidence, and communicating practical recommendations to stakeholders. My interests include IT governance, cybersecurity maturity, third-party risk, operational resilience, and regulatory control frameworks.</p>
+        </div>
+        <div class="card">
+          <h3>Areas of interest</h3>
+          <ul class="clean">
+            <li>Risk-based internal audit and control evaluation</li>
+            <li>IT general controls and access management</li>
+            <li>Cybersecurity governance and maturity assessments</li>
+            <li>Third-party risk and outsourcing controls</li>
+            <li>Business continuity and operational resilience</li>
+            <li>Audit reporting and remediation follow-up</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="expertise">
+    <div class="wrap">
+      <div class="section-head"><h2>Core Expertise</h2><p>Capabilities and subject areas relevant to my professional work.</p></div>
+      <div class="grid">
+        <article class="card"><h3>Internal Audit</h3><p>Risk-based audit planning, walkthroughs, evidence evaluation, observation drafting, action-plan follow-up, and reporting.</p></article>
+        <article class="card"><h3>IT Audit</h3><p>IT general controls, user access, change management, IT operations, system controls, and technology risk.</p></article>
+        <article class="card"><h3>Cybersecurity</h3><p>Security governance, control maturity, incident management, vulnerability management, and security monitoring oversight.</p></article>
+        <article class="card"><h3>Risk & Compliance</h3><p>Risk assessment, control design and operating effectiveness, compliance mapping, and remediation tracking.</p></article>
+        <article class="card"><h3>Regulatory Frameworks</h3><p>Experience and professional interest in SAMA CSF and relevant cybersecurity and privacy requirements, as applicable.</p></article>
+        <article class="card"><h3>Stakeholder Engagement</h3><p>Clear audit communication, evidence requests, management responses, and practical recommendations.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head"><h2>Selected Case Studies</h2><p>Replace these illustrative summaries with approved, anonymized examples of your actual work.</p></div>
+      <div class="grid">
+        <article class="card">
+          <h3>Cybersecurity Control Maturity Review</h3>
+          <p>Illustrative case study: assess control implementation against an applicable cybersecurity framework, identify gaps, validate evidence, and track improvement actions.</p>
+          <div class="taglist"><span class="tag">Cybersecurity</span><span class="tag">Maturity</span><span class="tag">Controls</span></div>
+        </article>
+        <article class="card">
+          <h3>IT Access Management Audit</h3>
+          <p>Illustrative case study: review joiner-mover-leaver processes, privileged access, periodic access reviews, approvals, and evidence of timely access removal.</p>
+          <div class="taglist"><span class="tag">ITGC</span><span class="tag">IAM</span><span class="tag">Access Reviews</span></div>
+        </article>
+        <article class="card">
+          <h3>Third-Party Risk & Oversight</h3>
+          <p>Illustrative case study: evaluate vendor due diligence, risk classification, contractual security requirements, monitoring, and remediation ownership.</p>
+          <div class="taglist"><span class="tag">Third Party</span><span class="tag">Risk</span><span class="tag">Governance</span></div>
+        </article>
+      </div>
+      <p class="notice" style="margin-top:18px">Confidentiality note: Do not publish internal audit reports, company-specific findings, customer information, screenshots, control evidence, or restricted material. Use only anonymized content that you are authorized to disclose.</p>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="wrap">
+      <div class="section-head"><h2>Certifications & Development</h2><p>List only credentials you have earned; update the details and links before publishing.</p></div>
+      <div class="grid">
+        <article class="card"><h3>CISA</h3><p>Certified Information Systems Auditor</p></article>
+        <article class="card"><h3>CISM</h3><p>Certified Information Security Manager</p></article>
+        <article class="card"><h3>ISO/IEC 42001</h3><p>Lead Auditor training / credential — use the exact title shown on your certificate.</p></article>
+      </div>
+      <p class="muted" style="margin-top:16px">You may add certification verification links, issue dates, and other qualifications where appropriate.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head"><h2>Contact</h2><p>For professional networking, collaboration, or relevant opportunities.</p></div>
+      <div class="two-col">
+        <div class="card">
+          <h3>Connect professionally</h3>
+          <p class="muted">Add your public LinkedIn profile and a professional email address below. Avoid publishing personal phone numbers or information you do not want public.</p>
+          <div class="actions">
+            <a class="btn primary" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Add LinkedIn URL</a>
+            <a class="btn" href="mailto:your.professional.email@example.com">Email Me</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Before you publish</h3>
+          <ul class="clean">
+            <li>Replace the sample email with your preferred professional contact.</li>
+            <li>Update the LinkedIn link to your own profile.</li>
+            <li>Confirm every credential and experience statement is accurate.</li>
+            <li>Add a CV only if you are comfortable making it publicly accessible.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="year"></span> Mansoor Ali · Professional portfolio · Built with HTML and CSS for GitHub Pages.</div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
